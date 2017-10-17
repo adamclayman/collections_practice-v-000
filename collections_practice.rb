@@ -38,3 +38,9 @@ def kesha_maker(array)
   return kesha_array
 end
 
+def find_a(array)
+  array.selects do |string|
+    string.start_with?("a")
+  end
+end
+
