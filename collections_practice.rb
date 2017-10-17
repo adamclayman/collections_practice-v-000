@@ -44,3 +44,11 @@ def find_a(array)
   end
 end
 
+def sum_array(array)
+  sum = 0
+  array.map do |a|
+    sum += a
+  end
+  return sum
+end
+
